@@ -1,0 +1,21 @@
+@media (max-width: 900px) {
+    .imagem-grande {
+        height: 260px;
+      }
+      
+      .imagem {
+        height: 260px;
+      }
+
+      .noticia h1, .noticia h2 {
+        font-size: 28px;
+      }
+
+      .noticia p {
+        font-size: 16px;
+      }
+
+      .logo-footer {
+        width: 60%;
+      }
+}

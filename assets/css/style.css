@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: -moz-linear-gradient(
+    -45deg,
+    rgb(233, 73, 42) 0%,
+    rgb(231, 35, 87) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -45deg,
+    rgb(233, 73, 42) 0%,
+    rgb(231, 35, 87) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -45deg,
+    rgb(233, 73, 42) 0%,
+    rgb(231, 35, 87) 100%
+  );
+}
+
+.bg-contain {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.mulher {
+  height: 200px;
+  width: 175px;
+  position: absolute;
+  margin-top: 10%;
+}
+
+.text-header {
+  font-size: 20px;
+  font-family: "Arial";
+}
+
+.imagem-grande {
+  height: 450px;
+}
+
+.imagem {
+  height: 380px;
+}
+
+.noticia h1 {
+  font-size: 38px;
+  font-family: "Arial";
+  color: rgb(35, 31, 32);
+  font-weight: bold;
+  line-height: 1.077;
+}
+
+.noticia h2 {
+  font-size: 30px;
+  font-family: "Arial";
+  color: rgb(35, 31, 32);
+  font-weight: bold;
+  line-height: 1.244;
+}
+
+.noticia p {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(85, 87, 87);
+  line-height: 1.308;
+}
+
+.noticia .copy {
+  font-size: 15px;
+  font-family: "Arial";
+  color: rgb(116, 120, 122);
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.rodape {
+  background-color: #fc4c02;
+}
+
+.logo-footer {
+  width: 30%;
+}
+
+.copy-footer {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(100, 104, 105);
+}
